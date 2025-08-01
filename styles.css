@@ -1,0 +1,47 @@
+    .gradient-bg {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    .dark .gradient-bg {
+        background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
+    }
+    .skill-card {
+        transition: all 0.3s ease;
+    }
+    .skill-card:hover {
+        transform: translateY(-5px);
+    }
+    .project-card {
+        transition: all 0.3s ease;
+    }
+    .project-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+    .dark .project-card:hover {
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+    }
+    .typing-animation {
+        border-right: 2px solid #2563EB;
+        animation: blink 1s infinite;
+    }
+    @keyframes blink {
+        0%, 50% { border-color: transparent; }
+        51%, 100% { border-color: #2563EB; }
+    }
+    .dark .typing-animation {
+        border-right-color: #3B82F6;
+    }
+    @keyframes blink-dark {
+        0%, 50% { border-color: transparent; }
+        51%, 100% { border-color: #3B82F6; }
+    }
+    .fade-in {
+        animation: fadeIn 0.8s ease-in;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(30px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    .scroll-smooth {
+        scroll-behavior: smooth;
+    } 

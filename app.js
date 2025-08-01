@@ -1029,16 +1029,16 @@
                                     intelligent solutions that make a difference.
                                 </p>
                                 <div className="flex space-x-4">
-                                    <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                                    <a href="https://www.linkedin.com/in/maryam-mahmoudi-8882857b/" className="text-gray-300 hover:text-white transition-colors">
                                         <i className="fab fa-linkedin text-xl"></i>
                                     </a>
-                                    <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                                    <a href="https://github.com/maryammahmoudi1993" className="text-gray-300 hover:text-white transition-colors">
                                         <i className="fab fa-github text-xl"></i>
                                     </a>
                                     <a href="#" className="text-gray-300 hover:text-white transition-colors">
                                         <i className="fab fa-twitter text-xl"></i>
                                     </a>
-                                    <a href="mailto:maryam.mahmoudi@example.com" className="text-gray-300 hover:text-white transition-colors">
+                                    <a href="mailto:mahmoodi.maryam1993@gmail.com" className="text-gray-300 hover:text-white transition-colors">
                                         <i className="fas fa-envelope text-xl"></i>
                                     </a>
                                 </div>
@@ -1083,25 +1083,25 @@
             );
         };
 
-        // Main App Component
-        const App = () => {
-            return (
-                <ThemeProvider>
-                    <div className="min-h-screen bg-light-bg dark:bg-dark-bg transition-colors duration-300">
-                        <Navigation />
-                        <Hero />
-                        <About />
-                        <Blog />
-                        <Skills />
-                        <Projects />
-                        <Experience />
-                        <Education />
-                        <Contact />
-                        <Footer />
-                    </div>
-                </ThemeProvider>
-            );
-        };
+// Main App Component
+const App = () => {
+    return (
+        <ThemeProvider>
+            <div className="min-h-screen bg-light-bg dark:bg-dark-bg transition-colors duration-300">
+                <Navigation />
+                <Hero />
+                <About />
+                <Blog />
+                <Skills />
+                <Projects />
+                <Experience />
+                <Education />
+                <Contact />
+                <Footer />
+            </div>
+        </ThemeProvider>
+    );
+};
 
-        // Render the app
-        ReactDOM.render(<App />, document.getElementById('root')); 
+// Render the app
+ReactDOM.render(<App />, document.getElementById('root'));
